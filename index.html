@@ -1,17 +1,45 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=">Simple Interest Calculator" />
+    <meta name="keywords" content=">Simple Interest Calculator Compute Income Amount" />
+    <title>Web App - Simple Interest Calculator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Simple Interest Calculator</h1>
-
-    Amount <input type="number" id="principal"> <br/> Rate <input type="number" id="rate"> <br/> No. of Years <input type="number" id="years"> <br/> Interest : <span id="result"></span><br>
-
-    <button onclick="compute()">Compute</button>
+    <div class="main-container">
+        <h1>Simple Interest Calculator</h1>
+        <div class="control-set">
+            <div class="control">
+                <span id="amount-caption">Amount</span>
+                <input type="text" id="principal">
+            </div>
+            <div class="control">
+                <span id="rate-caption">Interest Rate</span>
+                <input type="range" value="10" id="rate">
+                <span id="percentage">10,50%</span>
+            </div>
+            <div class="control">
+                <span id="years-caption">No. of Years</span>
+                <select id="years" aria-valuenow="1" aria-valuemax="10" aria-valuemin="1">1</select>
+            </div>
+            <span id="result-caption">Interest : </span>
+            <span id="result"></span><br>
+            <button onclick="compute()">Compute Interest</button>
+        </div>
+        <footer class="copyright">
+            &copy; Everyone Can Get Rich
+        </footer>
+    </div>
 </body>
 
 </html>
