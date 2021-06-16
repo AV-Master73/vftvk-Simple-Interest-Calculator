@@ -1,4 +1,50 @@
-body {background-color:tan;}
-h1{color:green;}
+@font-face {
+    font-family: "Noto-Sans-Symbols-ExtraBold";
+    src: url("Noto-Sans-Symbols-ExtraBold.ttf.woff") format("woff"), url("Noto-Sans-Symbols-ExtraBold.ttf.svg#Noto-Sans-Symbols-ExtraBold") format("svg"), url("Noto-Sans-Symbols-ExtraBold.ttf.eot"), url("Noto-Sans-Symbols-ExtraBold.eot?#iefix") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+}
 
+body {
+    background-color: #000000;
+}
 
+h1 {
+    font-family: "Noto-Sans-Symbols-ExtraBold";
+    color: rgb(129, 129, 129);
+    font-weight: 700;
+}
+
+.main-container {
+    font-family: unset;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    display: flex;
+    float: left;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    width: 540px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin: 5px 50px;
+    justify-items: flex-start;
+}
+
+.control-set {
+    width: 310px;
+    align-items: center;
+}
+
+.control {
+    padding: 5px;
+}
+
+.copyright {
+    align-self: baseline;
+    margin: 15px 15px;
+}
+
+.amount-caption {
+    margin-right: 50px;
+}
