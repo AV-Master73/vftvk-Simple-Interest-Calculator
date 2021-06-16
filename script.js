@@ -1,6 +1,7 @@
 "use strict";
 
 function compute() {
-    p = document.getElementById("principal").value;
+    amount = document.getElementById("principal").value;
+    percent = document.getElementById("percentage").value;
 
 }
