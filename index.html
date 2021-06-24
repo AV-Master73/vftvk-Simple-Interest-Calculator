@@ -25,12 +25,26 @@
             </div>
             <div class="control">
                 <span id="rate-caption">Interest Rate</span>
-                <input type="range" value="10" id="rate">
-                <span id="percentage">10,50%</span>
+                <div class="percent-group">
+                    <input type="range" value="10" id="rate">
+                    <span id="percentage">10,50%</span>
+                </div>
             </div>
             <div class="control">
                 <span id="years-caption">No. of Years</span>
-                <select id="years" aria-valuenow="1" aria-valuemax="10" aria-valuemin="1">1</select>
+                <select id="years">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>                                                                                                                                                                                    
+                </select>
             </div>
             <span id="result-caption">Interest : </span>
             <span id="result"></span><br>
