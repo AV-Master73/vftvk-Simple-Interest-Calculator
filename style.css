@@ -33,11 +33,12 @@ h1 {
 
 .control-set {
     width: 310px;
-    align-items: center;
+    align-items: stretch;
 }
 
 .control {
-    padding: 5px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .copyright {
@@ -46,5 +47,5 @@ h1 {
 }
 
 .amount-caption {
-    margin-right: 50px;
+    margin: 0px;
 }
