@@ -72,5 +72,7 @@ h1 {
 .copyright {
     align-self: baseline;
     margin: 15px;
+    font-weight: 600;
+    font-size: 95%;
     background-color: #ffffff;
 }
