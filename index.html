@@ -21,17 +21,18 @@
         <div class="control-set">
             <div class="control">
                 <span class="ctrl-caption">Amount</span>
-                <span class="spacing"><pre>     </pre></span>
+                <span class="spacing"><pre>         </pre></span>
                 <input type="text" id="principal" class="ctrl">
             </div>
             <div class="control">
                 <span class="ctrl-caption">Interest Rate</span>
+                <span class="spacing"><pre>    </pre></span>
                 <input type="range" value="10" id="rate" class="ctrl">
                 <span id="percentage" class="ctrl-caption">10,50%</span>
             </div>
             <div class="control">
                 <span class="ctrl-caption">No. of Years</span>
-                <span class="spacing"><pre>  </pre></span>
+                <span class="spacing"><pre>     </pre></span>
                 <select id="years" class="ctrl">
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -46,7 +47,7 @@
                     <option value="11">11</option>                                                                                                                                                                                    
                 </select>
             </div>
-            <button onclick="compute()">Compute Interest</button>
+            <button id="comp-int" onclick="compute()">Compute Interest</button>
             <div id="result-section">
                 <span id="result-caption">Interest : </span>
                 <span id="result">0</span><br>
