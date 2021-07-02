@@ -1,9 +1,12 @@
 "use strict";
 
 function rate_refresh() {
-    alert("rate_refresh");
+    alert("11111");
     percent = document.getElementById("rate").value;
+    alert("222222");
     document.getElementById("percentage").innerText = string(percent);
+    percent = 7;
+
     return percent;
 }
 
