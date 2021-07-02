@@ -49,11 +49,12 @@ h1 {
 }
 
 .ctrl {
-    height: 20px;
+    height: 22px;
 }
 
 #principal {
-    width: 150px;
+    width: 175px;
+    height: 16px;
 }
 
 .ctrl-caption {

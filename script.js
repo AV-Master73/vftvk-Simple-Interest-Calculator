@@ -5,5 +5,6 @@ function compute() {
     percent = document.getElementById("percentage").value;
     years_n = document.getElementById("years").value;
     res = (amount * percent / 100) * years_n;
+    alert(res);
     document.getElementById("result").innerText = string(res);
 }
