@@ -20,7 +20,6 @@ h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: normal;
     display: flex;
-    float: left;
     position: fixed;
     flex-direction: column;
     align-items: center;
@@ -34,21 +33,36 @@ h1 {
 .control-set {
     width: 330px;
     align-items: stretch;
-    background-color: #7b007b;
+    background-color: #ffffff;
+    font-weight: 500;
 }
 
 .control {
-    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    height: 30px;
+    padding: 5px;
     margin: 0px;
-    background-color: #007b00;
+    background-color: #ffffff;
+}
+
+.ctrl {
+    height: 20px;
+}
+
+#principal {
+    width: 150px;
+}
+
+.ctrl-caption {
+    padding-top: 5px;
+    background-color: #ffffff;
 }
 
 .copyright {
     align-self: baseline;
     margin: 15px 15px;
-    background-color: #007b7b;
-}
-
-.amount-caption {
-    margin-right: 50px;
+    background-color: #ffffff;
 }
