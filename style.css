@@ -32,20 +32,23 @@ h1 {
 }
 
 .control-set {
-    width: 310px;
+    width: 330px;
     align-items: stretch;
+    background-color: #7b007b;
 }
 
 .control {
     padding: 0px;
     margin: 0px;
+    background-color: #007b00;
 }
 
 .copyright {
     align-self: baseline;
     margin: 15px 15px;
+    background-color: #007b7b;
 }
 
 .amount-caption {
-    margin: 0px;
+    margin-right: 50px;
 }
