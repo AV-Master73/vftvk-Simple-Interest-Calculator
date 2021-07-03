@@ -1,78 +1,82 @@
 @font-face {
-    font-family: "Noto-Sans-Symbols-ExtraBold";
-    src: url("Noto-Sans-Symbols-ExtraBold.ttf.woff") format("woff"), url("Noto-Sans-Symbols-ExtraBold.ttf.svg#Noto-Sans-Symbols-ExtraBold") format("svg"), url("Noto-Sans-Symbols-ExtraBold.ttf.eot"), url("Noto-Sans-Symbols-ExtraBold.eot?#iefix") format("embedded-opentype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Noto-Sans-Symbols-ExtraBold";
+  src: url("Noto-Sans-Symbols-ExtraBold.ttf.woff") format("woff"),
+    url("Noto-Sans-Symbols-ExtraBold.ttf.svg#Noto-Sans-Symbols-ExtraBold")
+      format("svg"),
+    url("Noto-Sans-Symbols-ExtraBold.ttf.eot"),
+    url("Noto-Sans-Symbols-ExtraBold.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 h1 {
-    font-family: "Noto-Sans-Symbols-ExtraBold";
-    color: rgb(129, 129, 129);
-    font-weight: 700;
+  font-family: "Noto-Sans-Symbols-ExtraBold";
+  color: rgb(129, 129, 129);
+  font-weight: 700;
 }
 
 .main-container {
-    font-family: unset;
-    font-family: "Arial", sans-serif;
-    font-weight: normal;
-    display: flex;
-    position: fixed;
-    flex-direction: column;
-    align-items: center;
-    width: 540px;
-    border-radius: 30px;
-    background-color: #ffffff;
-    margin: 5px 50px;
-    justify-items: flex-start;
+  font-family: unset;
+  font-family: "Arial", sans-serif;
+  font-weight: normal;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  align-items: center;
+  width: 540px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  margin: 5px 50px;
+  justify-items: flex-start;
 }
 
 .control-set {
-    width: 320px;
-    align-items: stretch;
-    background-color: #ffffff;
-    font-weight: 600;
-    font-size: 95%;
+  width: 350px;
+  align-items: stretch;
+  background-color: #ffffff;
+  font-weight: 600;
+  font-size: 95%;
 }
 
 .control {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: stretch;
-    height: 30px;
-    padding-bottom: 35px;
-    margin: 0px;
-    background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  height: 30px;
+  padding-bottom: 35px;
+  margin: 0px;
+  background-color: #ffffff;
 }
 
 .ctrl {
-    height: 20px;
+  height: 20px;
 }
 
 #principal {
-    width: 150px;
+  width: 150px;
 }
 
 #result-section {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .ctrl-caption {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .copyright {
-    align-self: baseline;
-    margin: 15px;
-    font-weight: 600;
-    font-size: 95%;
-    background-color: #ffffff;
+  align-self: baseline;
+  margin: 15px;
+  font-weight: 600;
+  font-size: 95%;
+  background-color: #ffffff;
 }
