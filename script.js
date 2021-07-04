@@ -12,6 +12,7 @@ function compute() {
     let years_n = document.getElementById("years").value;
     if (!(amount > 0)) {
         alert("Amount have to be a positive number!");
+        document.getElementById("principal").focus();
     }
     let currentTime = new Date();
     let cur_year = currentTime.getFullYear();
