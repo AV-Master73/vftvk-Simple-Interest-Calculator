@@ -1,21 +1,17 @@
 "use strict";
 
 function rate_refresh() {
-    alert("11111");
-    percent = document.getElementById("rate").value;
-    alert("222222");
-    document.getElementById("percentage").innerText = string(percent);
-    percent = 7;
-
+    let percent = document.getElementById("rate").value;
+    document.getElementById("percentage").innerHTML = percent + "%";
     return percent;
 }
 
 function compute() {
-    alert("compute");
-    amount = document.getElementById("principal").value;
-    percent = document.getElementById("rate").value;
-    years_n = document.getElementById("years").value;
-    res = (amount * percent / 100) * years_n;
-    document.getElementById("result").innerText = string(res);
+    let amount = document.getElementById("principal").value;
+    let percent = document.getElementById("rate").value;
+    let years_n = document.getElementById("years").value;
+    let res = (amount * percent / 100) * years_n;
+    alert(res);
+    document.getElementById("result").innerHTML = "Interest : " + res;
     return res;
 }
