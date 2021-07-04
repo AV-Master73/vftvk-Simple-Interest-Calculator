@@ -27,7 +27,7 @@
             <div class="control">
                 <span class="ctrl-caption">Interest Rate</span>
                 <span class="spacing"><pre>    </pre></span>
-                <input type="range" value="10" id="rate" class="ctrl" onclick="rate_refresh()">
+                <input type="range" max="40" step="0.1" id="rate" class="ctrl" onclick="rate_refresh()">
                 <span id="percentage" class="ctrl-caption">10,50%</span>
             </div>
             <div class="control">
@@ -49,8 +49,7 @@
             </div>
             <button id="comp-int" class="ctrl" onclick="compute()">Compute Interest</button>
             <div id="result-section">
-                <span id="result-caption">Interest : </span>
-                <span id="result">0</span><br>
+                <span id="result"></span>
             </div>
         </div>
         <footer class="copyright">
