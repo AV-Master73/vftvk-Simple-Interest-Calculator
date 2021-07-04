@@ -14,9 +14,9 @@ function compute() {
     let cur_year = currentTime.getFullYear();
     let end_year = cur_year + Number(years_n);
     let res = (amount * percent / 100) * years_n;
-    document.getElementById("result").innerHTML = "If you deposit " + amount + "<br>" +
-        "at an interest rate of " + percent + "%<br>" +
-        "You will receive an amount of " + res + "<br>" +
-        "in the year " + end_year + "<br>";
+    document.getElementById("result").innerHTML = "If you deposit <span class=&quot;output&quot;>" + amount + "</span><br>" +
+        "at an interest rate of <span class=&quot;output&quot;>" + percent + "</span>%<br>" +
+        "You will receive an amount of <span class=&quot;output&quot;>" + res + "</span><br>" +
+        "in the year <span class=&quot;output&quot;>" + end_year + " </span><br>";
     return res;
 }
